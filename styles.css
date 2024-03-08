@@ -50,14 +50,13 @@ p {
 }
 
 /* #region List */
-li span {
+li {
     padding-left: 16px;
     color:black;
     font-size: small;
-    display: block;
-}
-li {
     margin-bottom: 12px;
+}
+li::marker {
     font-size: x-small;
 }
 /* #endregion */
